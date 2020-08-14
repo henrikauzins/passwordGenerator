@@ -64,6 +64,7 @@ while True:
         exit()
 
     else:
+        # if no user input is detected
         print("no input detected, try again")
 
 
