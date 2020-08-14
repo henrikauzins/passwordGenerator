@@ -17,11 +17,15 @@ low_case = chr(random.randint(97, 122))
 
 char_case = chr(random.randint(32, 152))
 
+num_case = chr(random.randint(48, 57))
+
 upp_case2 = chr(random.randint(65, 90))
 
 low_case2 = chr(random.randint(97, 122))
 
 char_case2 = chr(random.randint(32, 152))
+
+num_case2 = chr(random.randint(48, 57))
 
 upp_case3 = chr(random.randint(65, 90))
 
@@ -29,8 +33,10 @@ low_case3 = chr(random.randint(97, 122))
 
 char_case3 = chr(random.randint(32, 152))
 
+num_case3 = chr(random.randint(48, 57))
+
 # password will be consisted of 3 lower case letters, 3 upper case letters and 3 characters
-final_password = upp_case + low_case + char_case + low_case3 + char_case3 + upp_case3 + low_case2 + char_case2 + upp_case3
+final_password = upp_case + num_case + low_case + char_case + num_case2 + low_case3 + char_case3 + upp_case3 + low_case2 + num_case3 + char_case2 + upp_case3
 
 
 while True:
