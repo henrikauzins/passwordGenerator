@@ -10,7 +10,7 @@ def shuffleCharacters(string):
     random.shuffle(temporary_list)
     return ''.join(temporary_list)
 
-# generates ASCII values for lower, upper case letters and characters
+# generates ASCII values for lower and upper case letters, characters and numbers
 upp_case = chr(random.randint(65, 90))
 
 low_case = chr(random.randint(97, 122))
