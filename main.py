@@ -50,8 +50,9 @@ while True:
         print("randomly generated password: ", final_password)
         # adds the generated password to a list
         stored_passwords.append(final_password)
-        # prints the list out containing the passwords
-        print(stored_passwords)
+        # prints the list out containing the passwords via a for loop
+        for h in stored_passwords:
+            print(h)
         continue
         break
 
@@ -59,6 +60,7 @@ while True:
     elif response == "no":
         print("goodbye")
         break
+        #terminates program
         exit()
 
     else:
